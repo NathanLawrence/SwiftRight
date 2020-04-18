@@ -15,6 +15,8 @@
 		597AC7CA244A677600D05523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597AC7C8244A677600D05523 /* LaunchScreen.storyboard */; };
 		597AC7D5244A677600D05523 /* SwiftRightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597AC7D4244A677600D05523 /* SwiftRightTests.swift */; };
 		597AC7E0244A677600D05523 /* SwiftRightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597AC7DF244A677600D05523 /* SwiftRightUITests.swift */; };
+		597AC7F0244A682700D05523 /* SwipeableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597AC7EF244A682700D05523 /* SwipeableCardView.swift */; };
+		597AC7F2244A884F00D05523 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597AC7F1244A884F00D05523 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		597AC7DB244A677600D05523 /* SwiftRightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		597AC7DF244A677600D05523 /* SwiftRightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRightUITests.swift; sourceTree = "<group>"; };
 		597AC7E1244A677600D05523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		597AC7EF244A682700D05523 /* SwipeableCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardView.swift; sourceTree = "<group>"; };
+		597AC7F1244A884F00D05523 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				597AC7BD244A677400D05523 /* AppDelegate.swift */,
+				597AC7F1244A884F00D05523 /* SwiftUIView.swift */,
 				597AC7BF244A677400D05523 /* SceneDelegate.swift */,
 				597AC7C1244A677400D05523 /* ContentView.swift */,
 				597AC7C3244A677600D05523 /* Assets.xcassets */,
 				597AC7C8244A677600D05523 /* LaunchScreen.storyboard */,
 				597AC7CB244A677600D05523 /* Info.plist */,
 				597AC7C5244A677600D05523 /* Preview Content */,
+				597AC7EF244A682700D05523 /* SwipeableCardView.swift */,
 			);
 			path = SwiftRight;
 			sourceTree = "<group>";
@@ -270,6 +276,8 @@
 				597AC7BE244A677400D05523 /* AppDelegate.swift in Sources */,
 				597AC7C0244A677400D05523 /* SceneDelegate.swift in Sources */,
 				597AC7C2244A677400D05523 /* ContentView.swift in Sources */,
+				597AC7F0244A682700D05523 /* SwipeableCardView.swift in Sources */,
+				597AC7F2244A884F00D05523 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
